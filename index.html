@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Currency Conversion</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+	 crossorigin="anonymous">
+	  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+
+  <body>
+	<!-- Nav bar -->
+	<nav class="navbar navbar-expand-lg navbar-dark">
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu-element">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+  <!-- Nav bar Logo -->
+    <a class="navbar-brand" href="index.html">
+       <img src="https://thumbs.gfycat.com/ScentedSparseIbizanhound.webp" width="70" height="63" alt="Company Logo">
+
+    </a>
+
+  </nav>   
+
+</br>
+     <h2>Quick Fact Country Sheet </h2>
+
+  <div id="main-container">
+<div id="flag-container">
+      <img src="" alt="">
+    </div>
+    </div>
+  
+    <div id="info-container">
+      <label for="colFormLabelSm">Please select country :<select id="countries"></select>
+      <p>(You may refer to below 'Currencies' and use the currency coverter to convert major currencies to Singapore Dollars(vice versa)).</p>
+    <div class="container">
+      <div class="text-center col-lg-12 col-sm-12">
+      <p>Capital: <span id="capital"></span></p>
+      <p>Currencies: <span id="currencies"></span></p>
+      <p>Languages: <span id="languages"></span></p>
+      <p>Timezones: <span id="timezones"></span></p>
+      <p>Dialing Code: <span id="dialing-code"></span></p>
+      <p>Population: <span id="population"></span></p>
+      <p>Region: <span id="region"></span></p>
+      <p>Subregion: <span id="subregion"></span></p>
+
+ 
+ </div>
+ </div>
+ </div>
+  </br>  
+       <h2>Weather Forecast</h2>
+       <p>(Search for current weather forecast in any major capital cities).</p>
+
+    <div class="container">
+      <div class="row">
+    
+        </div>
+
+         <!-- <div class="main">
+    <div class="header">
+      <h1>OpenWeatherMap API</h1>
+      <p>Enter any city name in the input box below to get the data</p>
+    </div> -->
+  
+    <div class="input">
+      <div class="text-center col-lg-12 col-sm-12"></br>
+      <input type="text" placeholder="Please enter city name" class="input_text">
+      <input type="submit" value="Submit" class="submit">
+
+</br> </br>
+
+      <h1 class="name" id="name"></h1>
+      <p class="temp"></p>
+      <p class="desc"></p>
+      <p class="humidity"></p>
+
+
+
+    </div>
+        </div>
+  </div>
+              </div>
+              </div>
+
+
+
+  </br>
+     <h2>Currency Converter </br>(SGD as Base Currency)</h2>
+     <p>Please note it is only available for the following major currencies: EUR,GBP,USD,AUD,CAD,CNY,HKD,INR,IDR,JPY,KRW,MYR,NZD,PHP,CHF,THB,TWD,VND,AED,QAR,SAR</p>
+    <div class="container">
+      <div class="row">
+    
+        </div>
+
+            <form>
+            <div class="text-center col-lg-12 col-sm-12">
+            <label for="colFormLabelSm"></br>Amount :
+            <input type="number" id="forex-amount" placeholder="Enter Amount">
+            
+            (Local amount)</label>
+            
+            </br></br>
+            <label for="colFormLabelSm">Currency :
+            
+            <select id="forex-rate">
+                          
+              </select>
+  
+              <img src="" id="country-flag" style="width:48px;"/>
+              
+      
+              (Please select local currency)
+              </label>
+              </br></br>
+            <label for="colFormLabelSm">Amount : <input type="text" placeholder="Enter Amount In SGD" id="forex-sgd">
+              
+              (SGD amount)</label></br></br>
+
+            <audio id ="myAudio">
+
+            <source src="" id="anthem-name">
+
+            </audio>
+
+            <button onclick="playAudio()" type="button">Play </button>
+            <button onclick="pauseAudio()" type="button">Pause</button> 
+            </br></br><p>(Please click 'Play' or 'Pause' buttons to start/pause audio upon change of currency)</p>
+
+
+          </div>
+          
+          
+        </div>
+                                    
+
+<!-- Footer -->
+
+ 
+  <div class="footer">
+  <p>&copy; Currency Converter & Quick Fact Sheet | Created by Jane Ho</p>
+</div>
+
+</footer>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/numeral.js/2.0.6/numeral.min.js"></script>
+    <script src="script.js"></script>
+    <script src="script2.js"></script>
+    <script src="script3.js"></script>
+
+    
+</body>
+</html>
