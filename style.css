@@ -1,0 +1,119 @@
+header {
+  /* padding: 156px 0 100px; */
+  background-color: gray;
+  color:white;
+ 
+ }
+
+nav{background-color:black;
+font-family:Arial;
+}
+
+.nav-tabs .nav-link {
+  
+  border-color: rgba(224, 224, 109, 0.329);
+  font-size:13px;
+  font-weight:bold;
+  
+  }
+
+li a {display:block;
+  color:white;
+  text-decoration: none;
+}
+  
+li a:hover {background-color: rgba(1, 1, 1, 0.041);
+  
+}
+
+
+.content-wrapper{
+  background-color:rgb(1, 1, 1,0.3);
+  height:200vh;
+    
+  /* Text styles */
+  text-align: left;
+  color:whitesmoke;
+  font-size:1.09em;
+  font-family:Arial;
+  
+
+  /* Background styles */
+  background-image: url('/imagebackground/globe.png');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  
+}
+.container{
+  background-color:rgba(0, 0, 0, 0.39);
+  padding:0px 15px 30px;
+}
+
+.content-wrapper-heading{
+  background-color:rgb(1, 1, 1,0.3);
+  height:80vh;
+ 
+    
+  /* Text styles */
+  text-align: left;
+  color:whitesmoke;
+  font-size:1.09em;
+  font-family:Arial;
+  
+
+  /* Background styles */
+  background-image: url('/imagebackground/globe.png');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  
+}
+
+.container-heading{
+  background-color:rgba(0, 0, 0, 0.39);
+  padding:0px 15px 30px;
+  height:80vh;
+}
+
+
+
+
+
+span.heading{color:rgba(240, 190, 227, 0.9);
+text-align:left;
+font-size:1.00em;
+font-weight:bolder;
+line-height:1cm;
+
+}
+
+
+
+.graph{
+  width:350px;
+  height:500px;
+  position:relative;
+}
+
+ 
+
+#mobile-footer {
+  color:white;
+    /* position: fixed;
+    bottom: 0; */
+    width: 100%;
+    background-color:black;
+
+}
+
+
+
+#errorCity{
+width: 50%;
+margin:auto;
+text-align:center;
+
+}
