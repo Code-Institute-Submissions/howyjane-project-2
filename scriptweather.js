@@ -4,6 +4,7 @@ $(document).ready(function(){
   });
 });
 
+// https://api.openweathermap.org/data/2.5/weather?q='+input.value+'&units=metric&appid=b583819b941d640e4b302e120e03f0a7'
 
 function getWeather(){
 	var city = $("#city").val();
@@ -15,8 +16,8 @@ function getWeather(){
       type: "GET",
       datatype: "json",
       success: function(data){
-        var final =showResults(data)
-        $("#showWeather").html(final);
+        var widget =showResults(data)
+        $("#showWeather").html(widget);
 
         $("#city").val('');
       }
@@ -26,7 +27,7 @@ function getWeather(){
 
   }else{
 
-    $("#error").html("<div>City field is empty</div>");
+    $("#error").html("<div class='alert alert-danger' id='errorCity'<a href=#' class='close' data-dismiss='alert' aria-label='close'>&times;</a>City field is empty</div>");
 
   
   }
