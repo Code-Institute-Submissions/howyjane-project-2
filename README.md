@@ -236,7 +236,7 @@ I checked if the images all scaled and maintained aspect ratio instead of stretc
 
 The site has been deployed using github pages in the usual way.
 
-The app live at https://howyjane.github.io/Project-2
+The app live at https://howyjane.github.io/project-2
 
 
 8.Credits
