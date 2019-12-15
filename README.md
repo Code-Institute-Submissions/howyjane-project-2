@@ -2,7 +2,7 @@
 
 Title: Find Info.now
 
-2nd Coding Project: User-Centric Frontend Development - Code Institute
+2nd Coding Project: Interactive-Centric Frontend Development - Code Institute
 This is my 2nd coding project. In this project I have created 2 user interactive tools, a Currency Converter that translates major international currency to Singapore dollars (vice versa) and a Weather Forecast tool that displays latest weather forecast in cities around the world.
 
 This website caters to anyone who is based in Singapore and planning to travel abroad to major cities and foreigners who are travelling to/from Singapore.
