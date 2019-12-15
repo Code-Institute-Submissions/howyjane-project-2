@@ -1,12 +1,10 @@
-$(document).ready(function(){
-  $("#submitCity").click(function(){
-	return getWeather();
+  $(document).ready(function(){
+    $("#submitCity").click(function(){
+	  return getWeather();
   });
 });
 
-// https://api.openweathermap.org/data/2.5/weather?q='+input.value+'&units=metric&appid=b583819b941d640e4b302e120e03f0a7'
-
-function getWeather(){
+  function getWeather(){
 	var city = $("#city").val();
 
   if(city !=''){
@@ -20,19 +18,26 @@ function getWeather(){
         $("#showWeather").html(widget);
 
         $("#city").val('');
-      }
+        }
 	
-    }); 
+      }); 
 
 
-  }else{
+    }else {
 
     $("#error").html("<div class='alert alert-danger' id='errorCity'<a href=#' class='close' data-dismiss='alert' aria-label='close'>&times;</a>City field is empty</div>");
 
-  
   }
 
-}
+  }
 
+  function showResults(data){
+  return  '<h3>Weather Forecast in '+data.name+'</h3></br>'+ 
+    "<p>Current Temperature: "+data.main.temp +"&deg;C </p>"+
+    "<p>Current Weather: "+data.weather[0].main+ "<img src = 'http://openweathermap.org/img/wn/" + data.weather[0].icon +".png'></p>"+
+    "<p>Current Humidity: "+data.main.humidity +"%</p>"+
+    "<p>Current Weather Speed: "+data.wind.speed+"m/s</p>"+
+    "<p>Current Weather Direction: "+data.wind.deg+"&deg;</p>";
 
+  }
 
