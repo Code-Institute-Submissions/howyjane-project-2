@@ -80,19 +80,17 @@ li a:hover {background-color: rgba(1, 1, 1, 0.041);
 
 
 
+/*span.heading{color:rgba(240, 190, 227, 0.9);*/
+/*text-align:left;*/
+/*font-size:1.00em;*/
+/*font-weight:bolder;*/
+/*line-height:1cm;*/
 
-
-span.heading{color:rgba(240, 190, 227, 0.9);
-text-align:left;
-font-size:1.00em;
-font-weight:bolder;
-line-height:1cm;
-
-}
+/*}*/
 
 
 
-.graph{
+.mapimage{
   width:350px;
   height:500px;
   position:relative;
